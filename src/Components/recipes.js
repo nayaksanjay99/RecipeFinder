@@ -7,10 +7,7 @@ class Recipes extends React.Component{
         console.log(posts)
         const post=posts.length?(
             posts.map(elm=>{
-               
-               
-               
-               
+                            
                 const lablength=elm.recipe.dietLabels
                 const lab=lablength.length?(
                     lablength.map(el=>{

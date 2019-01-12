@@ -11,7 +11,7 @@ class App extends Component {
   setstring=(string)=>{
     console.log(string)
     if(string!=null){
-        axios.get('https://api.edamam.com/search?q='+string+'&app_id=f3618845&app_key=8160a86cb18298a7e03d7e9d64742b12	')
+        axios.get('https://api.edamam.com/search?q='+string+'&app_id=&app_key=	')
         .then(res=>{
           console.log(res);
           this.setState({
